@@ -1,0 +1,55 @@
+    * {
+      font-family: 'Red Hat Text', sans-serif;
+      font-size: 14px;
+      text-align: center;
+      align-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .attribution {
+      font-size: 11px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    footer {
+      background-image: url('images/pattern-hills.svg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      color: white;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    footer img{
+      margin: 1%;
+    }
+    h1{
+      color: white;
+      font-size: xx-large;
+      margin-bottom: 8%;
+      letter-spacing: 10ch;
+    }
+    body {
+      background-image: url('images/bg-stars.svg');
+      background-size: cover;
+      background-color: rgb(35, 29, 43);   
+    }
+
+    footer img :hover {
+      fill: hsl(345, 95%, 68%)
+    }
+    .calendar{
+      display: flex;
+      margin-left: 1%;
+    }
+    .calendarModel {
+      background-color: hsl(236, 21%, 26%);
+      flex-direction: column-reverse;
+    }
+    main{
+      margin-top: 12%;
+    }
