@@ -1,0 +1,6 @@
+let time = new Date()
+let hora = time.getHours()
+let minuto = time.getMinutes()
+let segundo = time.getSeconds()
+let picker = document.getElementById('day')
+picker.innerHTML = time.getDate()
