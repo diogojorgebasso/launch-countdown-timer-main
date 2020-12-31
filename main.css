@@ -9,6 +9,7 @@
 
     .attribution {
       font-size: 11px;
+      margin-bottom: 5px;
     }
 
     .attribution a {
@@ -29,9 +30,9 @@
     }
     h1{
       color: white;
-      font-size: xx-large;
+      font-size: x-large;
       margin-bottom: 8%;
-      letter-spacing: 10ch;
+      letter-spacing: 10px;
     }
     body {
       background-image: url('images/bg-stars.svg');
@@ -39,16 +40,21 @@
       background-color: rgb(35, 29, 43);   
     }
 
-    footer img :hover {
+    footer img:hover {
       fill: hsl(345, 95%, 68%)
     }
-    .calendar{
+
+    #calendar{
       display: flex;
-      margin-left: 1%;
+      justify-content: center;
+      align-items: center;
     }
     .calendarModel {
       background-color: hsl(236, 21%, 26%);
-      flex-direction: column-reverse;
+      height: 15em;
+      width: 15em;
+      margin: 10px;
+      top: 50%;
     }
     main{
       margin-top: 12%;
