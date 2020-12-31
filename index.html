@@ -61,11 +61,11 @@
     }
     .calendar{
       display: flex;
-
+      margin-left: 1%;
     }
     .calendarModel {
       background-color: hsl(236, 21%, 26%);
-      
+      flex-direction: column-reverse;
     }
     main{
       margin-top: 12%;
@@ -80,9 +80,9 @@
   <h1>We're launching soon</h1>
   <div class="calendar">
     <div class="calendarModel" ><span id="day"></span>DAYS</div> 
-    <div class="calendarModel" id="hour">HOURS</div>
-    <div class="calendarModel" id="minute">MINUTES</div>
-    <div class="calendarModel" id="second">SECONDS</div>
+    <div class="calendarModel" ><span id="hour"></span>HOURS</div>
+    <div class="calendarModel" ><span id="minute"></span>MINUTES</div>
+    <div class="calendarModel" ><span id="second"></span>SECONDS</div>
   </div>
 </main>
   <footer>
