@@ -2,6 +2,7 @@ function getDate(){
   let time = new Date()
   let pickerDay = document.getElementById('day')
   pickerDay.innerHTML = time.getDate()
+  //pickerDay.style.fontSize = "x-large";
   let pickerHour = document.getElementById('hour')
   pickerHour.innerHTML = time.getHours()
   let pickerMinute = document.getElementById('minute')

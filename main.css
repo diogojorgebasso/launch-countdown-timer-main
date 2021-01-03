@@ -7,7 +7,79 @@
       padding: 0;
       overflow: hidden;
     }
+    body {
+      background-image: url('images/bg-stars.svg');
+      background-size: cover;
+      background-color: rgb(35, 29, 43);   
+    }
 
+    main{
+      margin-top: 6%;
+    }
+
+    h1{
+      color: white;
+      font-size: x-large;
+      margin-bottom: 8%;
+      letter-spacing: 10px;
+    }
+    
+    #calendars{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .calendarDesing {
+      background-color: hsl(236, 21%, 26%);
+      font-size: xx-large;
+      height: 7em;
+      width: 7em;
+      margin: 10px;
+      top: 50%;
+      color: hsl(345, 95%, 68%);
+    }
+
+    .leftCircle {
+      background: black;
+      border-radius: 50%;
+      height: 30px;
+      width: 30px;
+      margin: 0;
+    }
+
+    hr{
+      height: 1px;
+      background-color: #ccc;
+      border: none;
+      align-items: center;
+    }
+
+    p{
+      color: hsl(237, 18%, 59%);
+      letter-spacing: 8px;
+    }
+
+    footer {
+      background-image: url('images/pattern-hills.svg');
+      background-size: auto;
+      background-repeat: no-repeat;
+      color: white;
+      position: fixed;
+      width: 100%;
+      height: 12vh;
+      bottom: 0;
+    }
+
+    svg{
+      fill:#ccc;
+      margin: 20px;
+    }
+
+    svg:hover {
+      fill: hsl(345, 95%, 68%)
+    }
+    
     .attribution {
       font-size: 11px;
       margin-bottom: 5px;
@@ -17,59 +89,9 @@
       color: hsl(228, 45%, 44%);
     }
 
-    footer {
-      background-image: url('images/pattern-hills.svg');
-      background-size:cover;
-      background-repeat: no-repeat;
-      color: white;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-    footer img{
-      margin: 1%;
-    }
-    h1{
-      color: white;
-      font-size: x-large;
-      margin-bottom: 8%;
-      letter-spacing: 10px;
-    }
-    body {
-      background-image: url('images/bg-stars.svg');
-      background-size: cover;
-      background-color: rgb(35, 29, 43);   
-    }
-
-    svg:hover {
-      fill: hsl(345, 95%, 68%)
-    }
-    svg{
-      fill:#ccc;
-      margin: 20px;
-    }
-
-    #calendars{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .calendarDesing {
-      background-color: hsl(236, 21%, 26%);
-      height: 10em;
-      width: 15em;
-      margin: 10px;
-      top: 50%;
-      color: hsl(345, 95%, 68%);
-      font-size: x-large;
-      line-height: 15px;
-    }
-    hr{
-      height: 1px;
-      background-color: #ccc;
-      border: none;
-      align-items: center;
-    }
-    main{
-      margin-top: 12%;
+    .sr-only { /*For acessability pourpose*/
+      position: absolute;
+      left: -10000px;
+      top: auto;
+      overflow: hidden;
     }
