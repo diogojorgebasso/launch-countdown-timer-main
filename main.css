@@ -12,13 +12,13 @@
     }
 
     main{
-      margin-top: 6%;
+      margin-top: 9%;
     }
 
     h1{
       color: white;
       font-size: x-large;
-      margin-bottom: 8%;
+      margin-bottom: 7%;
       letter-spacing: 10px;
     }
     
@@ -99,7 +99,7 @@
     }
 
     svg{
-      fill:#ccc;
+      fill:hsl(237, 18%, 59%);
       margin: 20px;
     }
 
