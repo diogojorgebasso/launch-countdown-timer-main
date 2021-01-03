@@ -8,5 +8,6 @@ function getDate(){
   pickerMinute.innerHTML = time.getMinutes()
   let pickerSecond = document.getElementById('second')
   pickerSecond.innerHTML = time.getSeconds()
+  time.
 setTimeout(getDate, 1000)}
 getDate()
