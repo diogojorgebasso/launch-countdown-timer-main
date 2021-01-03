@@ -2,10 +2,8 @@
       font-family: 'Red Hat Text', sans-serif;
       font-size: 14px;
       text-align: center;
-      align-content: center;
       margin: 0;
       padding: 0;
-      overflow: hidden;
     }
     body {
       background-image: url('images/bg-stars.svg');
@@ -27,21 +25,20 @@
     #calendars{
       display: flex;
       justify-content: center;
-      align-items: center;
     }
 
     .calendarDesing {
       background-color: hsl(236, 21%, 26%);
-      font-size: xx-large;
-      height: 7em;
-      width: 7em;
-      margin: 10px;
-      top: 50%;
+      height: 10em;
+      width: 10em;
+      margin: 0 10px 0 10px; /*dando BO*/
       color: hsl(345, 95%, 68%);
+      align-items: center;
+      display: flex;
     }
 
     .leftCircle {
-      background: black;
+      background: white;
       border-radius: 50%;
       height: 30px;
       width: 30px;
@@ -50,14 +47,34 @@
 
     hr{
       height: 1px;
-      background-color: #ccc;
+      background-color: rgb(35, 29, 43);
       border: none;
-      align-items: center;
+      width: 100%;
     }
 
+    #day {
+      font-size: 5em;
+      position: absolute;
+      text-align: center;
+    }
+    #hour {
+      font-size: 5em;
+      position: absolute;
+
+    }
+    #minute {
+      font-size: 5em;
+      position: absolute;
+    }
+    #second {
+      font-size: 5em;
+      position: absolute;
+    }
     p{
       color: hsl(237, 18%, 59%);
       letter-spacing: 8px;
+      text-align: center;
+
     }
 
     footer {
@@ -79,7 +96,7 @@
     svg:hover {
       fill: hsl(345, 95%, 68%)
     }
-    
+
     .attribution {
       font-size: 11px;
       margin-bottom: 5px;
