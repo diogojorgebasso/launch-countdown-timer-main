@@ -79,7 +79,7 @@
 
     footer {
       background-image: url('images/pattern-hills.svg');
-      background-size: auto;
+      background-size: cover;
       background-repeat: no-repeat;
       color: white;
       position: fixed;
